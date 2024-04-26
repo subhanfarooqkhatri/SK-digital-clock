@@ -3,25 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
     <link rel="stylesheet" href="style.css">
-    <title>Digital Clock with Javascript</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
-    <div class="datetime">
-        <div id="welcome"></div>
-        <div class="date">
-            <span id="dayName">Day</span>
-            <span id="month">Month</span>
-            <span id="daynum">00</span>
-            <span id="year">Year</span>
-        </div>
-        <div class="time">
-            <span id="hour">00</span>
-            <span id="minutes">00</span>
-            <span id="seconds">00</span>
-            <span id="period">AM</span>
+    
+<div class="digital-clock">
+    <div class="time">
+        <span class="hours">00</span>
+        <span class="dots">:</span>
+        <span class="minutes">00</span>
+        <div class="right-side">
+            <span class="period">AM/PM</span>
+            <span class="seconds">00</span>
+
         </div>
     </div>
-    <script type="module" src="script.js"></script>
+    <div class="calendar">
+        <span class="month-name">Month,</span>
+        <span class="day-name">Day</span>
+        <span class="day-number">00</span>
+        <span class="year">0000</span>
+
+    </div>
+</div>
+
+
+    <script src="./app.js"></script>
 </body>
 </html>
